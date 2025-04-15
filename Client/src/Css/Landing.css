@@ -1,6 +1,8 @@
-/* .landing_wrapper{
-    
-} */
+/* 
+*/
+.landing_wrapper{
+overflow: hidden;    
+} 
 
 /* nav container */
 .nav_wrapper {
