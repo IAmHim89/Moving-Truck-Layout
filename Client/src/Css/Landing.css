@@ -1,12 +1,13 @@
 /* 
 */
 .landing_wrapper{
-overflow: hidden;    
+overflow: hidden; 
+   
 } 
 
 /* nav container */
 .nav_wrapper {
-  height: 20vh;
+  height: 25vh;
   border: 1px solid black;
   min-width: 50%;
 
@@ -37,7 +38,7 @@ overflow: hidden;
   border: 1px solid black;
   justify-content: center;
   align-items: left;
-  height: 21vh;
+  height: 25vh;
   min-width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   overflow: hidden;
@@ -76,15 +77,16 @@ li:hover {
   cursor: pointer;
 }
 
-/* button display for nav container */
+/* button display for nav container 
 .button_wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
 }
+*/
 
 /* header display */
 .header_wrapper {
@@ -156,7 +158,7 @@ span {
   display: flex;
   flex-direction: column;
   background-image: url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3MlMjBvZmZpY2V8ZW58MHx8MHx8fDA%3D");
-  height: 40.5vh;
+  height: 35vh;
   min-width: 50%;
   padding: 1rem;
   margin: -0.5rem;
@@ -169,7 +171,7 @@ span {
 .insideFooter_wrapper > form {
   display: flex;
   flex-direction: column;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   justify-content: center;
   align-items: center;
   border: 2px solid white;
@@ -211,7 +213,7 @@ h2 {
 /* copyright */
 
 .copyright_wrapper {
-  height: 12vh;
+  height: 15vh;
   align-items: center;
 }
 
