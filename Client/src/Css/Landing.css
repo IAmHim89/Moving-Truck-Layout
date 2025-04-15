@@ -38,6 +38,7 @@
   height: 20vh;
   min-width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
 }
 .nav_toggler > li {
   list-style: none;
@@ -62,7 +63,7 @@
   box-shadow: 2px 2px 10px black;
   width: 35%;
   position: relative;
-  left: 10rem;
+  left: 6.5rem;
   bottom: 5rem;
 }
 /* Link effects */
