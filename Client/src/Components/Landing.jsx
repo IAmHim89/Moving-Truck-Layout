@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Css/Landing.Css"
+import "../Css/Landing.css"
 const Landing = () => {
   return (
     <div className="landing_wrapper" >
