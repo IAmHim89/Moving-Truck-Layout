@@ -125,26 +125,27 @@ span{
 .footer_wrapper{
     display: flex;
     flex-direction: column;
-  
     background-image: url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3MlMjBvZmZpY2V8ZW58MHx8MHx8fDA%3D");
-    height: 40vh;
+    height: 40.5vh;
     min-width: 50%;
     padding: 1rem;
     margin: -.5rem;
     background-position: center;
     object-fit: cover;
+    overflow: hidden;
 }
 
 /* form */
 .insideFooter_wrapper > form{
     display: flex;
     flex-direction: column;
+    margin-top: 1.5rem;
     justify-content: center;
     align-items: center;
     border: 2px solid white;
     box-shadow: 2px 2px 9px black;
     border-radius: 2rem;
-    height: 31vh;
+    height: 35vh;
     gap: 5px;
     padding: 1rem auto;
     background-color: rgba(0, 0, 0, .6);
@@ -156,7 +157,6 @@ span{
     border-radius: 2rem;
     text-align: center;
     letter-spacing: 5px;
-
 }
 /* all h2 font */
 h2{
@@ -189,7 +189,10 @@ h2{
 .copyright_wrapper > p{
     text-align: center;
     color: black;
-    text-shadow: 2px 2px 4px black;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px white;
+    overflow: hidden;
+
   
     
 }
