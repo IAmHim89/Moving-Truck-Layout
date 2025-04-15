@@ -171,13 +171,13 @@ span {
 .insideFooter_wrapper > form {
   display: flex;
   flex-direction: column;
-  margin-top: 1.2rem;
+  margin-top: -1.2rem;
   justify-content: center;
   align-items: center;
   border: 2px solid white;
   box-shadow: 2px 2px 9px black;
   border-radius: 2rem;
-  height: 30vh;
+  height: 35vh;
   gap: 5px;
   padding: 1rem auto;
   background-color: rgba(0, 0, 0, 0.6);
