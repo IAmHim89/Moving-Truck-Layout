@@ -1,6 +1,6 @@
-.landing_wrapper{
+/* .landing_wrapper{
     
-}
+} */
 
 /* nav container */
 .nav_wrapper{
@@ -13,11 +13,19 @@
     background-position: center;
     object-fit: cover;
 }
-
+/* nav symbol */
+#nav_btn{
+    border: 2px solid black;
+    font-size: 1rem;
+    position: absolute;
+    right: 1.5rem;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
 /* Nav display */
-nav > ul > li{ 
-    display: inline-block;
-    flex-direction: row;
+ .nav_toggler{ 
+    display: none;
+    flex-direction: column;
     margin: 0 .3rem;
     font-size: 1rem;
     font-family:Georgia, 'Times New Roman', Times, serif;  
@@ -80,16 +88,16 @@ li:hover{
     font-family: cursive
    
 }
-/* header/title */
-.insideHeader_wrapper > h1{
-    
+/* header/title 
+.insideHeader_wrapper > h1{    
 }
+*/
 
-/* header/paragraph */
+/* header/paragraph 
 .insideHeader_wrapper > p {
-
-    
 }
+*/
+
 /* header/paragraph/span(Quotes) */
 span{
     font-size: 2rem;
