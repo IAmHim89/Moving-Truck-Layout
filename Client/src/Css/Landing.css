@@ -26,7 +26,7 @@
 /* Nav display */
 .nav_toggler {
     display: none;
-    margin: 0 0.3rem;
+    
 }
 .nav_toggler.open {
     display: flex;
@@ -35,10 +35,12 @@
   border: 1px solid black;
   justify-content: center;
   align-items: left;
-  height: 20vh;
+  height: 21vh;
   min-width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   overflow: hidden;
+  margin-top: -1rem;
+  margin-right: -5rem;
 }
 .nav_toggler > li {
   list-style: none;
@@ -63,8 +65,8 @@
   box-shadow: 2px 2px 10px black;
   width: 35%;
   position: relative;
-  left: 6.5rem;
-  bottom: 5rem;
+  right: 2rem;
+  
 }
 /* Link effects */
 
