@@ -22,7 +22,7 @@ const Landing = () => {
             <li id="about">About Us</li>
             <li id="goal">Our Goal</li>
             <li id="contact">Contact Us</li>
-          <button>Quote</button>
+            <button>Quote</button>
           </ul>
         </nav>
         <div className="button_wrapper">
